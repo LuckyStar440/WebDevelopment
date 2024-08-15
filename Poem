@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                text-align: center;
+                float:center;
+                background-color:rgb(31, 26, 4);
+            }
+            h1 {
+                color: rgb(35, 135, 24);
+            }
+            h2 {
+                color: rgb(227, 144, 28);
+            }
+           #top_text {
+               float:center;
+               width:500px;
+               height:125px;
+           } 
+           .details {
+               border:2px dashed rgb(232, 163, 14);
+               background-color: rgb(245, 240, 206);
+               padding:10px;
+               text-align:center;
+               list-style-position:inside;
+               font-family:Luminari;
+               font-size:17px;
+               font-stretch:ultra-expanded;
+               color:rgb(32, 145, 54);
+           }
+           #top_pic {
+               float:left;
+               margin-left: 50px;
+           }
+           #second_pic {
+               float:right;
+               width:150px;
+               margin-left: 50px;
+               margin-top: 40px;
+           }
+        </style>
+    </head>
+    <body>
+        <img id="top_pic" src="https://www.kasandbox.org/programming-images/seasonal/hopper-partying.png" height="100px" float:left >
+    <div id="top_text">
+        <h1>You're invited!</h1>
+        <h2>To Mrs. Ball's Halloween Party!</h2>
+    </div>
+        <div class="details">
+        <img id="second_pic" src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png">
+        <p>The details:</p>
+        <ul>
+            <li>When: Saturday, Oct. 31st</li>
+            <li>Time: 6:00 - 10:00 pm</li>
+            <li>Where: Pumpkin Patch</li>
+        </ul>
+        <p>Join us if you dare!</p>
+        </div>
+    </body>
+</html>
